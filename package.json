@@ -1,0 +1,22 @@
+{
+  "name": "thinkit-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:z1": "ts-node src/zadatak1.ts",
+    "start:z2": "ts-node src/zadatak2.ts",
+    "start:z3": "ts-node src/zadatak3.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
